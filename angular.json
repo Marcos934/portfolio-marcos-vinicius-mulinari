@@ -107,7 +107,7 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
-            "baseHref": "/portfolio-marcosmulinari/",
+            "baseHref": "/portfolio-marcos-vinicius-mulinari/",
             "name": "Marcos Mulinari",
             "email": "marcos.mulinari97@gmail.com"
           }
