@@ -65,6 +65,9 @@ export class App implements OnInit, OnDestroy {
   // Estado do menu mobile
   protected readonly isMenuOpen = signal(false);
   
+  // Estado do collapse de tecnologias no footer
+  protected readonly isTechnologiesOpen = signal(false);
+  
   // Lifecycle hooks
   ngOnInit() {
     this.startTitleRotation();
@@ -86,6 +89,11 @@ export class App implements OnInit, OnDestroy {
   
   closeMenu() {
     this.isMenuOpen.set(false);
+  }
+  
+  // Método para controlar o collapse de tecnologias
+  toggleTechnologies() {
+    this.isTechnologiesOpen.set(!this.isTechnologiesOpen());
   }
   
   // Método para iniciar a rotação dos títulos com animação de rolagem vertical

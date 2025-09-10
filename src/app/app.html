@@ -448,9 +448,126 @@
           </a>
         </div>
         <div class="border-t border-gray-800 pt-8">
-          <p class="text-gray-400 text-sm">
-            {{ 'footer.rights' | translate }}
-          </p>
+          <!-- Seção de Tecnologias Utilizadas com Collapse -->
+          <div class="mb-8">
+            <!-- Botão do Collapse -->
+            <button 
+              (click)="toggleTechnologies()" 
+              class="w-full flex items-center justify-center text-white text-lg font-semibold mb-4 hover:text-blue-400 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded-lg p-2"
+              [attr.aria-expanded]="isTechnologiesOpen()"
+              aria-controls="technologies-content"
+            >
+              <h3 class="text-center">
+                {{ 'footer.technologies-title' | translate }}
+              </h3>
+              <!-- Ícone de seta que rotaciona -->
+              <svg 
+                class="w-6 h-6 transform transition-transform duration-300" 
+                [class.rotate-180]="isTechnologiesOpen()"
+                fill="none" 
+                stroke="currentColor" 
+                viewBox="0 0 24 24"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+              </svg>
+            </button>
+            
+            <!-- Conteúdo do Collapse -->
+            <div 
+              id="technologies-content"
+              class="overflow-hidden transition-all duration-500 ease-in-out"
+              [class.max-h-0]="!isTechnologiesOpen()"
+              [class.max-h-screen]="isTechnologiesOpen()"
+              [class.opacity-0]="!isTechnologiesOpen()"
+              [class.opacity-100]="isTechnologiesOpen()"
+            >
+              <div class="pt-4">
+                <!-- Frontend Framework -->
+                <div class="mb-6">
+                  <h4 class="text-gray-300 text-base font-medium mb-3 text-center">
+                    {{ 'footer.frontend-framework' | translate }}
+                  </h4>
+                  <div class="flex flex-wrap gap-2 justify-center">
+                    <span class="bg-red-600 text-white px-3 py-1 rounded-full text-sm font-medium">
+                      Angular 18
+                    </span>
+                    <span class="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-medium">
+                      TypeScript
+                    </span>
+                    <span class="bg-orange-600 text-white px-3 py-1 rounded-full text-sm font-medium">
+                      RxJS
+                    </span>
+                  </div>
+                </div>
+
+                <!-- Styling -->
+                <div class="mb-6">
+                  <h4 class="text-gray-300 text-base font-medium mb-3 text-center">
+                    {{ 'footer.styling' | translate }}
+                  </h4>
+                  <div class="flex flex-wrap gap-2 justify-center">
+                    <span class="bg-cyan-500 text-white px-3 py-1 rounded-full text-sm font-medium">
+                      Tailwind CSS
+                    </span>
+                    <span class="bg-pink-600 text-white px-3 py-1 rounded-full text-sm font-medium">
+                      PostCSS
+                    </span>
+                  </div>
+                </div>
+
+                <!-- Internacionalização -->
+                <div class="mb-6">
+                  <h4 class="text-gray-300 text-base font-medium mb-3 text-center">
+                    {{ 'footer.internationalization' | translate }}
+                  </h4>
+                  <div class="flex flex-wrap gap-2 justify-center">
+                    <span class="bg-green-600 text-white px-3 py-1 rounded-full text-sm font-medium">
+                      Angular i18n
+                    </span>
+                    <span class="bg-purple-600 text-white px-3 py-1 rounded-full text-sm font-medium">
+                      @angular/localize
+                    </span>
+                  </div>
+                </div>
+
+                <!-- Ferramentas de Desenvolvimento -->
+                <div class="mb-6">
+                  <h4 class="text-gray-300 text-base font-medium mb-3 text-center">
+                    {{ 'footer.dev-tools' | translate }}
+                  </h4>
+                  <div class="flex flex-wrap gap-2 justify-center">
+                    <span class="bg-gray-700 text-white px-3 py-1 rounded-full text-sm font-medium">
+                      Angular CLI
+                    </span>
+                    <span class="bg-yellow-600 text-white px-3 py-1 rounded-full text-sm font-medium">
+                      Zone.js
+                    </span>
+                    <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm font-medium">
+                      TypeScript Compiler
+                    </span>
+                  </div>
+                </div>
+
+                <!-- Build e Deploy -->
+                <div class="mb-6">
+                  <h4 class="text-gray-300 text-base font-medium mb-3 text-center">
+                    {{ 'footer.build-deploy' | translate }}
+                  </h4>
+                  <div class="flex flex-wrap gap-2 justify-center">
+                    <span class="bg-red-700 text-white px-3 py-1 rounded-full text-sm font-medium">
+                      @angular/build
+                    </span>
+                    <span class="bg-green-700 text-white px-3 py-1 rounded-full text-sm font-medium">
+                      Node.js
+                    </span>
+                    <span class="bg-blue-700 text-white px-3 py-1 rounded-full text-sm font-medium">
+                      NPM
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

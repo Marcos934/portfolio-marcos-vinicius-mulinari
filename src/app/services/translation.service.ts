@@ -78,7 +78,13 @@ export class TranslationService {
       'more-about.dogs-description': 'Tenho 5 cadelas em casa',
       'more-about.five-dogs': 'Tenho 5 cadelas em casa',
       'footer.role': 'Desenvolvedor de Software',
-      'footer.rights': '© 2024 Marcos Vinicius Mulinari. Todos os direitos reservados.'
+      'footer.technologies-title': 'Tecnologias utilizadas nesse portfólio',
+    'footer.frontend-framework': 'Framework Frontend',
+    'footer.styling': 'Estilização',
+    'footer.internationalization': 'Internacionalização',
+    'footer.dev-tools': 'Ferramentas de Desenvolvimento',
+    'footer.build-deploy': 'Build e Deploy',
+    'footer.rights': '© 2024 Marcos Vinicius Mulinari. Todos os direitos reservados.'
     },
     'en-US': {
       'nav.home': 'Home',
@@ -145,7 +151,13 @@ export class TranslationService {
       'more-about.dogs-description': 'I have 5 female dogs at home',
       'more-about.five-dogs': 'I have 5 female dogs at home',
       'footer.role': 'Software Developer',
-      'footer.rights': '© 2024 Marcos Vinicius Mulinari. All rights reserved.'
+      'footer.technologies-title': 'Technologies used in this portfolio',
+    'footer.frontend-framework': 'Frontend Framework',
+    'footer.styling': 'Styling',
+    'footer.internationalization': 'Internationalization',
+    'footer.dev-tools': 'Development Tools',
+    'footer.build-deploy': 'Build & Deploy',
+    'footer.rights': '© 2024 Marcos Vinicius Mulinari. All rights reserved.'
     }
   };
 
