@@ -37,7 +37,7 @@ import { TranslationService } from '../services/translation.service';
       >
         <button 
           *ngFor="let lang of languages"
-          class="w-full flex items-center space-x-2 px-3 py-2 text-left hover:bg-gray-50 transition-colors first:rounded-t-lg last:rounded-b-lg"
+          class="w-full dropdown-item px-3 py-2 text-left hover:bg-gray-50 transition-colors first:rounded-t-lg last:rounded-b-lg"
           [class.bg-blue-50]="lang.code === currentLocale"
           (click)="changeLanguage(lang.code)"
         >
@@ -65,17 +65,45 @@ import { TranslationService } from '../services/translation.service';
       transform: rotate(180deg);
     }
     
-    /* Correção de alinhamento dos elementos internos */
+    /* Correção de alinhamento vertical dos elementos internos */
     .language-selector button {
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-start;
       min-height: 40px;
+      gap: 0.5rem;
     }
     
     .language-selector button span {
       display: inline-flex;
       align-items: center;
+      vertical-align: middle;
+      line-height: 1;
+    }
+    
+    /* Alinhamento específico para bandeiras e texto */
+    .language-selector button span:first-child {
+      font-size: 1.5rem;
+      line-height: 1;
+    }
+    
+    .language-selector button span:nth-child(2) {
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+    }
+    
+    /* Alinhamento no dropdown */
+    .language-selector .dropdown-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    .language-selector .dropdown-item span {
+      display: inline-flex;
+      align-items: center;
+      vertical-align: middle;
+      line-height: 1;
     }
   `]
 })
