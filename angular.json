@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "portifolio-marcos": {
+    "portfolio-marcos": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -56,7 +56,8 @@
                   "maximumError": "8kB"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "outputPath": "dist/portfolio-marcos"
             },
             "development": {
               "optimization": false,
@@ -70,10 +71,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "portifolio-marcos:build:production"
+              "buildTarget": "portfolio-marcos:build:production"
             },
             "development": {
-              "buildTarget": "portifolio-marcos:build:development"
+              "buildTarget": "portfolio-marcos:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -81,7 +82,7 @@
         "extract-i18n": {
           "builder": "@angular/build:extract-i18n",
           "options": {
-            "buildTarget": "portifolio-marcos:build:development"
+            "buildTarget": "portfolio-marcos:build:development"
           }
         },
         "test": {
@@ -101,6 +102,14 @@
             "styles": [
               "src/styles.css"
             ]
+          }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "/portfolio-marcosmulinari/",
+            "name": "Marcos Mulinari",
+            "email": "marcos.mulinari97@gmail.com"
           }
         }
       }
