@@ -74,6 +74,58 @@
           <context context-type="linenumber">46,48</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="nav.more-about" datatype="html">
+        <source>Mais sobre mim</source>
+        <target>More about me</target>
+      </trans-unit>
+      <trans-unit id="more-about.title" datatype="html">
+        <source>Mais Sobre Mim</source>
+        <target>More About Me</target>
+      </trans-unit>
+      <trans-unit id="more-about.subtitle" datatype="html">
+        <source>Conheça um pouco mais sobre minha personalidade, valores e hobbies</source>
+        <target>Learn a little more about my personality, values and hobbies</target>
+      </trans-unit>
+      <trans-unit id="more-about.personality-title" datatype="html">
+        <source>Personalidade e Valores</source>
+        <target>Personality and Values</target>
+      </trans-unit>
+      <trans-unit id="more-about.personality-description" datatype="html">
+        <source>Sou uma pessoa tranquila e nunca tive problemas com colegas de trabalho. Acredito que a comunicação respeitosa e a colaboração são fundamentais para o sucesso de qualquer equipe.</source>
+        <target>I am a calm person and have never had problems with work colleagues. I believe that respectful communication and collaboration are fundamental to the success of any team.</target>
+      </trans-unit>
+      <trans-unit id="more-about.faith-description" datatype="html">
+        <source>Sou temente a Deus e sigo valores familiares sólidos, que me guiam tanto na vida pessoal quanto profissional.</source>
+        <target>I am God-fearing and follow solid family values, which guide me both in personal and professional life.</target>
+      </trans-unit>
+      <trans-unit id="more-about.family-description" datatype="html">
+        <source>Minha família é a base que me motiva e me inspira a buscar sempre o melhor em tudo que faço.</source>
+        <target>My family is the foundation that motivates and inspires me to always seek the best in everything I do.</target>
+      </trans-unit>
+      <trans-unit id="more-about.hobbies-title" datatype="html">
+        <source>Hobbies e Curiosidades</source>
+        <target>Hobbies and Curiosities</target>
+      </trans-unit>
+      <trans-unit id="more-about.games-subtitle" datatype="html">
+        <source>Jogos Favoritos</source>
+        <target>Favorite Games</target>
+      </trans-unit>
+      <trans-unit id="more-about.drone-piloting" datatype="html">
+        <source>Pilotagem de Drone</source>
+        <target>Drone Piloting</target>
+      </trans-unit>
+      <trans-unit id="more-about.curiosities-subtitle" datatype="html">
+        <source>Curiosidades</source>
+        <target>Curiosities</target>
+      </trans-unit>
+      <trans-unit id="more-about.parachute-jump" datatype="html">
+        <source>Já saltei de paraquedas</source>
+        <target>I've already skydived</target>
+      </trans-unit>
+      <trans-unit id="more-about.five-dogs" datatype="html">
+        <source>Tenho 5 cadelas</source>
+        <target>I have 5 female dogs</target>
+      </trans-unit>
       <trans-unit id="hero.greeting" datatype="html">
         <source>Olá, eu sou</source>
         <target>Hello, I'm</target>

@@ -68,6 +68,45 @@
           <context context-type="linenumber">46,48</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="nav.more-about" datatype="html">
+        <source>Mais sobre mim</source>
+      </trans-unit>
+      <trans-unit id="more-about.title" datatype="html">
+        <source>Mais Sobre Mim</source>
+      </trans-unit>
+      <trans-unit id="more-about.subtitle" datatype="html">
+        <source>Conheça um pouco mais sobre minha personalidade, valores e hobbies</source>
+      </trans-unit>
+      <trans-unit id="more-about.personality-title" datatype="html">
+        <source>Personalidade e Valores</source>
+      </trans-unit>
+      <trans-unit id="more-about.personality-description" datatype="html">
+        <source>Sou uma pessoa tranquila e nunca tive problemas com colegas de trabalho. Acredito que a comunicação respeitosa e a colaboração são fundamentais para o sucesso de qualquer equipe.</source>
+      </trans-unit>
+      <trans-unit id="more-about.faith-description" datatype="html">
+        <source>Sou temente a Deus e sigo valores familiares sólidos, que me guiam tanto na vida pessoal quanto profissional.</source>
+      </trans-unit>
+      <trans-unit id="more-about.family-description" datatype="html">
+        <source>Minha família é a base que me motiva e me inspira a buscar sempre o melhor em tudo que faço.</source>
+      </trans-unit>
+      <trans-unit id="more-about.hobbies-title" datatype="html">
+        <source>Hobbies e Curiosidades</source>
+      </trans-unit>
+      <trans-unit id="more-about.games-subtitle" datatype="html">
+        <source>Jogos Favoritos</source>
+      </trans-unit>
+      <trans-unit id="more-about.drone-piloting" datatype="html">
+        <source>Pilotagem de Drone</source>
+      </trans-unit>
+      <trans-unit id="more-about.curiosities-subtitle" datatype="html">
+        <source>Curiosidades</source>
+      </trans-unit>
+      <trans-unit id="more-about.parachute-jump" datatype="html">
+        <source>Já saltei de paraquedas</source>
+      </trans-unit>
+      <trans-unit id="more-about.five-dogs" datatype="html">
+        <source>Tenho 5 cadelas</source>
+      </trans-unit>
       <trans-unit id="hero.greeting" datatype="html">
         <source>Olá, eu sou</source>
         <context-group purpose="location">
