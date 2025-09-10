@@ -1,0 +1,97 @@
+/* Container para títulos rotativos com animação de rolagem vertical */
+.rotating-title-container {
+  display: inline-block;
+  overflow: hidden;
+  height: 1.2em; /* Altura de uma linha */
+  width: 200px; /* Largura fixa para evitar movimento lateral */
+  position: relative;
+  vertical-align: baseline; /* Mantém alinhamento com o texto fixo */
+  margin-left: 0.25em; /* Pequeno espaço após 'Desenvolvedor' */
+}
+
+.rotating-title {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  white-space: nowrap;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Animações de rolagem vertical - apenas o conteúdo se move */
+.rotating-title-container.slide-up-out .rotating-title {
+  transform: translateY(-100%);
+  transition: transform 0.25s ease-out;
+}
+
+.rotating-title-container.slide-up-in .rotating-title {
+  transform: translateY(100%);
+  animation: slideUpIn 0.5s ease-in forwards;
+}
+
+@keyframes slideUpIn {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+/* Animação de entrada suave de baixo para cima */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animação de fade para transições suaves */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Efeito de digitação opcional */
+.typing-effect {
+  overflow: hidden;
+  border-right: 2px solid #3B82F6;
+  white-space: nowrap;
+  animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #3B82F6;
+  }
+}
+
+/* Animações existentes do Tailwind */
+.animate-fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.animate-slide-up {
+  animation: fadeInUp 0.8s ease-in-out;
+}
