@@ -68,9 +68,20 @@
           <span>{{ 'hero.greeting' | translate }}</span>
           <span class="text-primary-600 ml-3">{{ name() }}</span>
         </h1>
-        <div class="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto animate-slide-up">
+        <div class="text-xl md:text-2xl text-gray-600 mb-6 max-w-3xl mx-auto animate-slide-up">
           <span class="font-bold">{{ 'hero.title' | translate }}</span>
         </div>
+        
+        <!-- Badge Open to Opportunities -->
+        <div class="mb-8 animate-pulse">
+          <span class="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-green-100 text-green-800 border border-green-200 shadow-sm">
+            <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+            </svg>
+            {{ 'hero.open-to-opportunities' | translate }}
+          </span>
+        </div>
+        
         <p class="text-lg text-gray-500 mb-12 max-w-2xl mx-auto">
           {{ description() }}
         </p>
