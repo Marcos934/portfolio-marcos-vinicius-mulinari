@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="nav.home" datatype="html">
+        <source>Início</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">40,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nav.about" datatype="html">
+        <source>Sobre</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">41,42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nav.skills" datatype="html">
+        <source>Habilidades</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">13,14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">42,43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nav.experience" datatype="html">
+        <source>Experiência</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">43,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nav.projects" datatype="html">
+        <source>Projetos</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">15,17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">44,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nav.contact" datatype="html">
+        <source>Contato</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">17,19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">46,48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hero.greeting" datatype="html">
+        <source>Olá, eu sou</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hero.title" datatype="html">
+        <source>Desenvolvedor de Software</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">66,68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hero.view-projects" datatype="html">
+        <source> Ver Projetos </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">73,75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hero.contact" datatype="html">
+        <source> Entre em Contato </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">76,78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.title" datatype="html">
+        <source>Sobre Mim</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">87,88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.subtitle" datatype="html">
+        <source> Desenvolvedor apaixonado por tecnologia e inovação </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">89,91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.description1" datatype="html">
+        <source> Sou desenvolvedor há 8 anos, com ampla experiência em projetos como freelancer e em equipe. Atuo no desenvolvimento completo de sistemas, desde a análise de requisitos até a entrega final, passando pelo desenho de arquitetura e implementação. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">95,97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.description2" datatype="html">
+        <source> Nos últimos três anos, direcionei meu trabalho para <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Inteligência Artificial<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> e <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>automação<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>. Tenho experiência com bancos de dados vetoriais, RAG, visão computacional, fine-tuning de modelos e engenharia de prompt. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">100,103</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.description3" datatype="html">
+        <source> Tenho vivência em ambientes ágeis, trabalhando em times multidisciplinares com metodologias como Scrum e Kanban. Facilidade em aprender novas tecnologias e me adaptar a diferentes contextos. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">105,107</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.education-title" datatype="html">
+        <source>Formação &amp; Certificações</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">110,111</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills.title" datatype="html">
+        <source>Habilidades</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">145,146</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills.subtitle" datatype="html">
+        <source> Tecnologias e ferramentas que domino </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">147,149</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="experience.title" datatype="html">
+        <source>Experiência Profissional</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">166,167</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="projects.title" datatype="html">
+        <source>Projetos em Destaque</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">196,197</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="projects.view-project" datatype="html">
+        <source>Ver Projeto</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">224,226</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.title" datatype="html">
+        <source>Entre em Contato</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">244,245</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.subtitle" datatype="html">
+        <source> Vamos conversar sobre seu próximo projeto </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">246,248</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

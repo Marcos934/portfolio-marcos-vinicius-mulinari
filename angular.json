@@ -12,13 +12,22 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+      "i18n": {
+        "sourceLocale": "pt-BR",
+        "locales": {
+          "en-US": {
+            "translation": "messages.en.xlf"
+          }
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular/build:application",
           "options": {
             "browser": "src/main.ts",
             "polyfills": [
-              "zone.js"
+              "zone.js",
+              "@angular/localize/init"
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
@@ -29,7 +38,9 @@
             ],
             "styles": [
               "src/styles.css"
-            ]
+            ],
+            "localize": false,
+            "i18nMissingTranslation": "warning"
           },
           "configurations": {
             "production": {
@@ -68,7 +79,10 @@
           "defaultConfiguration": "development"
         },
         "extract-i18n": {
-          "builder": "@angular/build:extract-i18n"
+          "builder": "@angular/build:extract-i18n",
+          "options": {
+            "buildTarget": "portifolio-marcos:build:development"
+          }
         },
         "test": {
           "builder": "@angular/build:karma",

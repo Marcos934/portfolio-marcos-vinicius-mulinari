@@ -1,3 +1,12 @@
+/* Ajuste da imagem de perfil */
+img.w-full.h-full.object-cover {
+  object-fit: cover;
+  width: 160% !important;
+  height: 154% !important;
+  object-position: 11% 8% !important;
+  margin: -24% 0px 0px 0%;
+}
+
 /* Container para títulos rotativos com animação de rolagem vertical */
 .rotating-title-container {
   display: inline-block;
