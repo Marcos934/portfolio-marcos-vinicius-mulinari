@@ -124,11 +124,11 @@ export class App implements OnInit, OnDestroy {
   protected readonly skills = signal([
     { name: '.NET', level: 80, icon: 'dotnet' },
     { name: 'C#', level: 78, icon: 'csharp' },
+    { name: 'NestJS', level: 85, icon: 'nestjs' },
+    { name: 'Angular', level: 88, icon: 'angular' },
     { name: 'JavaScript', level: 90, icon: 'javascript' },
     { name: 'TypeScript', level: 85, icon: 'typescript' },
-    { name: 'Angular', level: 88, icon: 'angular' },
     { name: 'PHP', level: 82, icon: 'php' },
-    { name: 'NestJS', level: 85, icon: 'nestjs' },
     { name: 'Python', level: 80, icon: 'python' },
     { name: 'Java', level: 75, icon: 'java' },
     { name: 'SQL', level: 85, icon: 'sql' },
