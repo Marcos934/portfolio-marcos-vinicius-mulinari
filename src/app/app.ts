@@ -136,6 +136,18 @@ export class App implements OnInit, OnDestroy {
     { name: 'GitHub', level: 90, icon: 'github' }
   ]);
 
+  // Soft Skills - Habilidades comportamentais (chaves de tradução)
+  protected readonly softSkills = signal([
+    'soft-skills.communication',
+    'soft-skills.fast-learning',
+    'soft-skills.resilience',
+    'soft-skills.analytical-thinking',
+    'soft-skills.curiosity-innovation',
+    'soft-skills.empathy-openness',
+    'soft-skills.creative-problem-solving',
+    'soft-skills.strategic-vision'
+  ]);
+
   // Método para obter ícone SVG das tecnologias usando devicon.dev CDN
   getSkillIcon(iconName: string): string {
     const iconUrls: { [key: string]: string } = {
