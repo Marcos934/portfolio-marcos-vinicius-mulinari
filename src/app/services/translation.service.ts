@@ -44,7 +44,7 @@ export class TranslationService {
       'soft-skills.resilience': 'Resiliência e adaptabilidade',
       'soft-skills.analytical-thinking': 'Pensamento analítico',
       'soft-skills.curiosity-innovation': 'Curiosidade e busca por inovação',
-      'soft-skills.empathy-openness': 'Empatia e abertura',
+      'soft-skills.empathy-openness': 'Empatia',
       'soft-skills.creative-problem-solving': 'Criatividade para resolver problemas',
       'soft-skills.strategic-vision': 'Visão estratégica',
       'experience.title': 'Experiência Profissional',
